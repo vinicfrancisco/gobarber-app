@@ -19,6 +19,7 @@ import logoImage from '../../assets/logo.png';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import getValidationErrors from '../../utils/getValidationErrors';
+import { useAuth } from '../../hooks/auth';
 
 import {
   Container,
@@ -35,9 +36,12 @@ interface SignInFormData {
 }
 
 const SignIn: React.FC = () => {
-  const navigation = useNavigation();
   const formRef = useRef<FormHandles>(null);
   const passwordInputRef = useRef<TextInput>(null);
+
+  const navigation = useNavigation();
+
+  const { signIn } = useAuth();
 
   const handleSignIn = useCallback(async (data: SignInFormData) => {
     try {
@@ -56,7 +60,7 @@ const SignIn: React.FC = () => {
 
       const { email, password } = data;
 
-      // await signIn({ email, password });
+      await signIn({ email, password });
 
       // history.push('/dashboard');
     } catch (error) {
