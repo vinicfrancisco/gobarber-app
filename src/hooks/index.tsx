@@ -1,9 +1,12 @@
 import React from 'react';
 
 import { AuthProvider } from './auth';
+import { KeyboardProvider } from './keyboard';
 
 const AppProvider: React.FC = ({ children }) => (
-  <AuthProvider>{children}</AuthProvider>
+  <AuthProvider>
+    <KeyboardProvider>{children}</KeyboardProvider>
+  </AuthProvider>
 );
 
 export default AppProvider;
