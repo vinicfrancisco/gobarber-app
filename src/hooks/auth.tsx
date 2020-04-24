@@ -19,6 +19,7 @@ interface SignInCredentials {
 }
 
 interface AuthContextData {
+  loading: boolean;
   user: object;
   signIn(credentials: SignInCredentials): Promise<void>;
   signOut(): void;
@@ -29,6 +30,7 @@ export const AuthContext = createContext<AuthContextData>(
 );
 
 export const AuthProvider: React.FC = ({ children }) => {
+  const [loading, setLoading] = useState(true);
   const [data, setData] = useState<AuthState>({} as AuthState);
 
   useEffect(() => {
@@ -44,6 +46,8 @@ export const AuthProvider: React.FC = ({ children }) => {
           user: JSON.parse(user[1]),
         });
       }
+
+      setLoading(false);
     }
 
     loadStoragedData();
@@ -72,7 +76,7 @@ export const AuthProvider: React.FC = ({ children }) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user: data.user, signIn, signOut }}>
+    <AuthContext.Provider value={{ loading, user: data.user, signIn, signOut }}>
       {children}
     </AuthContext.Provider>
   );
