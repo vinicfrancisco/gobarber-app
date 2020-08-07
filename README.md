@@ -1,6 +1,6 @@
 # ✂️ GoBarbber App ✂️
 
-Hi guys! This is an app from [Rocketseat](https://github.com/rocketseat) GoStack Bootcamp. Here you can schedule appointments with many barbers.
+Hi guys! This is an app from [Rocketseat](https://github.com/rocketseat) GoStack Bootcamp. Here you can schedule haircuts with many barbers.
 
 <img alt="GoBarber" src="./logo.png" width="auto" heigth="auto"/>
 
