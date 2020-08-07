@@ -31,3 +31,16 @@ Once you have your API on, run the following commands to see your app.
   yarn android
 ```
 
+## Follow me on my social medias!
+<a href="https://www.linkedin.com/in/vinicfrancisco/" target="_blank">
+    <img src="https://raw.githubusercontent.com/vinicfrancisco/vinicfrancisco/master/assets/linkedin.svg" width="21px"  alt="LinkedIn" align="left" />
+</a>
+
+<a href="https://www.instagram.com/vinicfrancisco/" target="_blank">
+  <img src="https://raw.githubusercontent.com/vinicfrancisco/vinicfrancisco/master/assets/instagram.svg" width="21px"  alt="Instagram" align="left" />
+</a>
+
+<a href="https://telegram.me/vinicfrancisco" target="_blank">
+  <img src="https://raw.githubusercontent.com/vinicfrancisco/vinicfrancisco/master/assets/telegram.svg" width="21px"  alt="Telegram" align="left" />
+</a>
+
