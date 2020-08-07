@@ -2,7 +2,7 @@
 
 Hi guys! This is an app from [Rocketseat](https://github.com/rocketseat) GoStack Bootcamp. Here you can schedule appointments with many barbers.
 
-<img src="https://raw.githubusercontent.com/vinicfrancisco/gobarber-app/master/App.png" />
+<img src="https://raw.githubusercontent.com/vinicfrancisco/gobarber-app/master/App.png" width="250" height="600" />
 
 ## Running App
 
