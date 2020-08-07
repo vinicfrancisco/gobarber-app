@@ -4,6 +4,12 @@ Hi guys! This is an app from [Rocketseat](https://github.com/rocketseat) GoStack
 
 <img src="https://raw.githubusercontent.com/vinicfrancisco/gobarber-app/master/App.png" width="200" height="500" />
 
+## 🛠 Made With 🛠
+
+- 🟣 React-Native
+- 🔵 TypeScript
+- 🟢 Styled-Components
+
 ## Running App
 
 To run this app, first you need to run the [GoBarber API](https://github.com/vinicfrancisco/gobarber-api).
